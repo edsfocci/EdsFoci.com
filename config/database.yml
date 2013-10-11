@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: EdsFoci.com_development
   pool: 5
-  username: EdsFoci.com
+  username: developer
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,13 +43,5 @@ test:
   encoding: unicode
   database: EdsFoci.com_test
   pool: 5
-  username: EdsFoci.com
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: EdsFoci.com_production
-  pool: 5
-  username: EdsFoci.com
+  username: developer
   password:
